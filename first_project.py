@@ -99,3 +99,21 @@ y = input("Y: ")
 u = int(y)
 zr = z * u
 print("Amount" ,zr)
+
+# Stored and reused, give the difintion to the things
+def thing() :
+    print('Hello')
+    print('Nicky')
+thing()
+
+# Max and min fuction
+big = max('Helllo Nicky Tan z') #z is the largest alphabet
+tiny = min('Helllo Nicky Tan z') #spacebar is the smallest
+print(big)
+print(tiny)
+
+#Type Conversion
+i = 42 # int
+f = float(i) # change int to float
+print(i)
+print(f)
